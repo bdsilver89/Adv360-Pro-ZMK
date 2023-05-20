@@ -15,6 +15,10 @@
     ignore-modifiers;
 };
 
+&sl {
+    release-after-ms = <2000>;
+};
+
 / {
     behaviors {
       #include "macros.dtsi"
@@ -39,7 +43,7 @@
         &kp TAB   &kp Q       &kp W      &kp F      &kp P       &kp B  &none                                                                        &none   &kp J  &kp L       &kp U      &kp Y      &kp SEMI    &kp BSLH
         &kp ESC   &hm LCTRL A &hm LGUI R &hm LALT S &hm LSHFT T &kp G  &none           &sk LCTRL &sk LALT &none &none &sk LGUI  &sk RCTRL           &none   &kp M  &hm RSHFT N &hm RALT E &hm RGUI I &hm RCTRL O &kp SQT
         &sk LSHFT &kp Z       &kp X      &kp C      &kp D       &kp V         &none    &none     &kp HOME &none &none &kp PG_UP &none     &none             &kp K  &kp H       &kp COMMA  &kp DOT    &kp FSLH    &sk RSHFT
-        &mo FUNC  &kp GRAVE   &kp CAPS   &kp LEFT   &kp RIGHT                 &kp BSPC &kp DEL   &kp END              &kp PG_DN &kp ENTER &kp SPACE                &kp UP      &kp DOWN   &kp LBKT   &kp RBKT    &mo FUNC
+        &sl FUNC  &kp GRAVE   &kp CAPS   &kp LEFT   &kp RIGHT                 &kp BSPC &kp DEL   &kp END              &kp PG_DN &kp ENTER &kp SPACE                &kp UP      &kp DOWN   &kp LBKT   &kp RBKT    &sl FUNC
       >;
     };
     keypad {
@@ -48,7 +52,7 @@
         &kp TAB   &kp Q     &kp W    &kp F    &kp P      &kp B  &none                                                                        &none   &kp Y  &kp KP_N7  &kp KP_N8    &kp KP_N9     &kp KP_MINUS    &kp BSLH
         &kp ESC   &kp A     &kp R    &kp S    &kp T      &kp G  &none           &sk LCTRL &sk LALT &none &none &sk LGUI  &sk RCTRL           &none   &kp H  &kp KP_N4  &kp KP_N5    &kp KP_N6     &kp KP_PLUS     &kp SQT
         &sk LSHFT &kp Z     &kp X    &kp C    &kp D      &kp V         &none    &none     &kp HOME &none &none &kp PG_UP &none     &none             &kp N  &kp KP_N1  &kp KP_N2    &kp KP_N3     &kp KP_ENTER    &sk RSHFT
-        &mo FUNC  &kp GRAVE &kp CAPS &kp LEFT &kp RIGHT                &kp BSPC &kp DEL   &kp END              &kp PG_DN &kp ENTER &kp KP_N0                &kp UP     &kp DOWN     &kp KP_DOT    &kp RBKT        &mo FUNC
+        &sl FUNC  &kp GRAVE &kp CAPS &kp LEFT &kp RIGHT                &kp BSPC &kp DEL   &kp END              &kp PG_DN &kp ENTER &kp KP_N0                &kp UP     &kp DOWN     &kp KP_DOT    &kp RBKT        &sl FUNC
       >;
     };
     fn {
