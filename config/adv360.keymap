@@ -10,7 +10,17 @@
 #define FUNC 3 // function-keys and symbols
 #define MOD 4 // mod and media keys
 
+// sticky key
+&sk {
+  release-after-ms = <2000>;
+  quick-release;
+  ignore-modifiers;
+};
 
+// sticky layer
+&sl {
+  release-after-ms = <2000>;
+};
 
 / {
     behaviors {
@@ -24,16 +34,6 @@
         bindings = <&kp RET>;
       };
       #endif
-
-      sk: sticky_key {
-        release-after-ms = <2000>;
-        quick-release;
-        ignore-modifiers;
-      };
-
-      sl: shift_layer {
-        release-after-ms = <2000>;
-      };
 
       hm: homerow_mods {
           compatible = "zmk,behavior-hold-tap";
