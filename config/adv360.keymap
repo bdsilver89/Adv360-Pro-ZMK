@@ -67,7 +67,7 @@
       bindings = <
         &kp EQUAL &kp N1      &kp N2      &kp N3     &kp N4      &kp N5 &tog KEYPAD                                                           &mo MOD  &kp N6 &kp N7      &kp N8     &kp N9      &kp N0      &kp MINUS
         &kp TAB   &kp Q       &kp W       &kp F      &kp P       &kp B  &tog MAC                                                              &none    &kp J  &kp L       &kp U      &kp Y       &kp SEMI    &kp BSLH
-        &kp ESC   &hm LGUI A  &hm LCTRL R &hm LALT S &hm LSHFT T &kp G  &sl FN          &sk LGUI  &sk LALT &sk RCTRL &sk RGUI                 &sl FN   &kp M  &hm RSHFT N &hm RALT E &hm RCTRL I &hm RGUI O  &kp SQT
+        &kp ESC   &hm LCTRL A &hm LALT R &hm LGUI S &hm LSHFT T &kp G  &sl FN          &sk LCTRL &sk LALT &sk RALT  &sk RCTRL                &sl FN   &kp M  &hm RSHFT N &hm RGUI E &hm RALT I &hm RCTRL O &kp SQT
         &sk LSHFT &kp Z       &kp X       &kp C      &kp D       &kp V                            &kp HOME &kp PG_UP                                   &kp K  &kp H       &kp COMMA  &kp DOT     &kp FSLH    &sk RSHFT
         &sl FN    &kp GRAVE   &kp CAPS    &kp LEFT   &kp RIGHT                 &kp BSPC &kp DEL   &kp END  &kp PG_DN &kp ENTER &kp SPACE                      &kp UP      &kp DOWN   &kp LBKT    &kp RBKT    &sl FN
       >;
